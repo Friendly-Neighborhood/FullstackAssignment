@@ -6,6 +6,8 @@ There are two ways of running the Golang API:
 1. Terminal
 2. Docker
 
+After running the API we will have to run the web application (React frontend) from the terminal.
+
 ## Running the Golang API via a terminal (first way)
 ### Prerequisites
 Before running the Golang API, ensure you have the following installed on your system:
