@@ -36,9 +36,10 @@ Before running the Golang API, ensure you have the following installed on your s
 ### Step-by-step guide to run the API
 1. Download code from the repository - https://github.com/Friendly-Neighborhood/FullstackAssignment
 2. Extract **golang_api** project folders on you computer (anywhere you like)
-3. Open **golang_api** folder in the terminal
-4. Run `docker build -t user-management-app .` command in the terminal to build the Docker image (dockerfile will be used for this step)
-5. Run `docker run --name user-management-app_c -p 8080:8080 user-management-app` command in the terminal to run Docker container from the builded image
+3. Download code from the repository - https://github.com/Friendly-Neighborhood/FullstackAssignment
+4. Open **golang_api** folder in the terminal
+5. Run `docker build -t user-management-app .` command in the terminal to build the Docker image (dockerfile will be used for this step)
+6. Run `docker run --name user-management-app_c -p 8080:8080 user-management-app` command in the terminal to run Docker container from the builded image
 
 ## Running the web application (Frontend)
 ### Prerequisites
@@ -62,4 +63,4 @@ Before running the application, ensure you have the following installed on your 
 
 7. After previous step the web application will automatically open in a browser on `http://localhost:3000/`
 
-**Notice: if visit `http://localhost:8080/users` we will be able to see all the users that are stored on our server as an array**
+**Notice: if we visit `http://localhost:8080/users` we will be able to see all the users that are stored on our server as an array**
