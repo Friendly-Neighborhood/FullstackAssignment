@@ -40,7 +40,7 @@ Before running the Golang API, ensure you have the following installed on your s
 4. Run `docker build -t user-management-app .` command in the terminal to build the Docker image (dockerfile will be used for this step)
 5. Run `docker run --name user-management-app_c -p 8080:8080 user-management-app` command in the terminal to run Docker container from the builded image
 
-## Running the web application (React and Node)
+## Running the web application (Frontend)
 ### Prerequisites
 Before running the application, ensure you have the following installed on your system:
 
