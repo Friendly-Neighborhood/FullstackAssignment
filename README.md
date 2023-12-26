@@ -1,6 +1,6 @@
 # User Management App
 
-This web application is a powerful and user-friendly web-based tool designed for managing user data efficiently. This application provides a comprehensive set of features, including RESTful APIs, for creating, reading, updating, and deleting user information. With its intuitive design and seamless integration of frontend and backend components, it offers a seamless user experience for administrators and end-users alike.
+This web application is a useful and user-friendly web-based tool designed for managing user data efficiently. This application provides a comprehensive set of features, including RESTful APIs, for creating, reading, updating, and deleting user information. With its intuitive design and seamless integration of frontend and backend components, it offers a seamless user experience for administrators and end-users alike.
 
 There are two ways of running the Golang API:
 1. Terminal
