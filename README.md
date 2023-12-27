@@ -40,6 +40,9 @@ Before running the Golang API, ensure you have the following installed on your s
 4. Open **golang_api** folder in the terminal
 5. Run `docker build -t user-management-app .` command in the terminal to build the Docker image (dockerfile will be used for this step)
 6. Run `docker run --name user-management-app_c -p 8080:8080 user-management-app` command in the terminal to run Docker container from the builded image
+7. Wait for the confirmation prompt of running the API
+
+![image](https://github.com/Friendly-Neighborhood/FullstackAssignment/assets/68468538/d6146f20-c341-46cd-aefc-d97559dd2019)
 
 ## Running the web application (Frontend)
 ### Prerequisites
