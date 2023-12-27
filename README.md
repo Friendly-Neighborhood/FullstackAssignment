@@ -2,19 +2,19 @@
 
 This web application is a useful and user-friendly web-based tool designed for managing user data efficiently. This application provides a comprehensive set of features, including RESTful APIs, for creating, reading, updating, and deleting user information. With its intuitive design and seamless integration of frontend and backend components, it offers a seamless user experience for administrators and end-users alike.
 
-There are two ways of running the Golang API:
+There are two ways of running the Golang server:
 1. Manually
 2. In Docker
 
-After running the API we will have to run the web application (React frontend) from the terminal.
+After running the server we will have to run the web application (React frontend) from the terminal.
 
-## Running the Golang API manually (first way)
+## Running the Golang server manually (first way)
 ### Prerequisites
-Before running the Golang API, ensure you have the following installed on your system:
+Before running the Golang server, ensure you have the following installed on your system:
 
 - [Go](https://golang.org/dl/): The Go programming language.
 
-### Step-by-step guide to run the API
+### Step-by-step guide to run the server
 
 1. Download source code from the repository - https://github.com/Friendly-Neighborhood/FullstackAssignment
 2. Extract **golang_api** project folder on you computer (anywhere you like)
@@ -23,24 +23,24 @@ Before running the Golang API, ensure you have the following installed on your s
 
 ![image](https://github.com/Friendly-Neighborhood/FullstackAssignment/assets/68468538/094ea9eb-ff3e-4d41-aad1-299e59235b1a)
 
-5. Wait for the confirmation prompt of running the API
+5. Wait for the confirmation prompt of running the server
 
 ![image](https://github.com/Friendly-Neighborhood/FullstackAssignment/assets/68468538/d6146f20-c341-46cd-aefc-d97559dd2019)
 
-## Running the Golang API in Docker (second way)
+## Running the Golang server in Docker (second way)
 ### Prerequisites
-Before running the Golang API, ensure you have the following installed on your system:
+Before running the Golang server, ensure you have the following installed on your system:
 
 - [Docker](https://www.docker.com/products/docker-desktop/): Platform for developing, shipping, and running applications.
 
-### Step-by-step guide to run the API
+### Step-by-step guide to run the server
 1. Download code from the repository - https://github.com/Friendly-Neighborhood/FullstackAssignment
 2. Extract **golang_api** project folders on you computer (anywhere you like)
 3. Launch Docker Desktop
 4. Open **golang_api** folder in the terminal
 5. Run `docker build -t user-management-app .` command in the terminal to build the Docker image (dockerfile will be used for this step)
 6. Run `docker run --name user-management-app_c -p 8080:8080 user-management-app` command in the terminal to run Docker container from the builded image
-7. Wait for the confirmation prompt of running the API
+7. Wait for the confirmation prompt of running the server
 
 ![image](https://github.com/Friendly-Neighborhood/FullstackAssignment/assets/68468538/d6146f20-c341-46cd-aefc-d97559dd2019)
 
