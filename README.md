@@ -34,7 +34,7 @@ Before running the Golang server, ensure you have the following installed on you
 - [Docker](https://www.docker.com/products/docker-desktop/): Platform for developing, shipping, and running applications.
 
 ### Step-by-step guide to run the server
-1. Download code from the repository - https://github.com/Friendly-Neighborhood/FullstackAssignment
+1. Download source code from the repository - https://github.com/Friendly-Neighborhood/FullstackAssignment
 2. Extract **golang_api** project folder on you computer (anywhere you like)
 3. Launch Docker Desktop
 4. Open **golang_api** folder in the terminal
@@ -52,7 +52,7 @@ Before running the application, ensure you have the following installed on your 
 
 ### Step-by-step guide to run the application
 
-1. Download code from the repository - https://github.com/Friendly-Neighborhood/FullstackAssignment
+1. Download source code from the repository - https://github.com/Friendly-Neighborhood/FullstackAssignment
 2. Extract **react_node_app** project folder on you computer (anywhere you like)
 3. Open **react_node_app** folder in the terminal
 4. Run `npm install` command in the terminal to download all the dependecies (**node_modules** folder will be added)
