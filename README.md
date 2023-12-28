@@ -35,7 +35,7 @@ Before running the Golang server, ensure you have the following installed on you
 
 ### Step-by-step guide to run the server
 1. Download code from the repository - https://github.com/Friendly-Neighborhood/FullstackAssignment
-2. Extract **golang_api** project folders on you computer (anywhere you like)
+2. Extract **golang_api** project folder on you computer (anywhere you like)
 3. Launch Docker Desktop
 4. Open **golang_api** folder in the terminal
 5. Run `docker build -t user-management-app .` command in the terminal to build the Docker image (dockerfile will be used for this step)
